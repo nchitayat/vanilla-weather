@@ -27,9 +27,35 @@ li {
 }
 
 .weather-app {
-  max-width: 600px;
-  margin: 30px auto;
   padding: 20px;
   border: 1px solid bisque;
   border-radius: 10px;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temp img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temp strong {
+  color: rgb(32, 33, 36);
+  font-size: 60px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.weather-temp .units {
+  font-size: 14px;
+  position: relative;
+  top: -32px;
 }
